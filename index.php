@@ -1,9 +1,9 @@
 <?php 
 include ('controller/MainController.php');
-include ('components/header.php');
+require ('components/header.php');
 
 $MainController = new MainController;
 $MainController->HandleRequest();
 
-include ('components/footer.php');
+require ('components/footer.php');
 ?>

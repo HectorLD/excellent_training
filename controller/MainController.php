@@ -4,7 +4,7 @@ include ('model/MainModel.php');
 class MainController
 {
     public function __construct(){
-        $this->MainModel = new MainModel();
+        $this->MainModel = new MainModel;
 
 
     }
