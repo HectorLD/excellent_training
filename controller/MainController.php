@@ -19,7 +19,7 @@ class MainController
 
 
             default:
-            echo "This is the default screen of this porject";
+            echo "This is the default screen of this project";
                 break;
         }
 
